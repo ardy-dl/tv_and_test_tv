@@ -1,5 +1,4 @@
-# tv_and_test_tv
-Class TV
+# Class TV
 ###### Required: Create a Python Code for creating the Class named TV and a Test Driver program named TestTV that will create two objects from Class TV
 
 ## How it works?
