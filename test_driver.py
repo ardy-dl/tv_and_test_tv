@@ -22,10 +22,14 @@ class TV:
         self.is_on = False
         print(self.name, "is turned OFF.")
     # returns channel
-
-
-    # set a new channel
+    def get_channel(self):
+        print(self.name + "'s channel is " + str(self.channel))
+    # set a new channel    
+    def set_channel(self,  new_channel):
+        self.channel = new_channel
     # get volume level
+    def get_volume(self):
+        print(self.name + "'s volume level is " + str(self.volume))
     # set a new volume level
     # increase channel  
     # decrease channel
@@ -41,3 +45,6 @@ tv2.show()
 default_tv.show()
 default_tv.turn_off()
 default_tv.status()
+default_tv.get_channel()
+default_tv.set_channel(122)
+default_tv.show()
